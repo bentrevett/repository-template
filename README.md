@@ -1,5 +1,7 @@
 # repository-template
 
+A repository template, inspired by [this](https://github.com/neubig/starter-repo) one, but using `uv` and not using `mypy`.
+
 ## Usage
 
 - If you don't have `uv` installed, install `uv` with `curl -LsSf https://astral.sh/uv/install.sh | sh`
