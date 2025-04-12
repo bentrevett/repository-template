@@ -8,7 +8,7 @@ from example.add import add_1
     [
         ([1, 2, 3], [2, 3, 4]),
         (np.array([1, 2, 3]), np.array([2, 3, 4])),
-        (0, 1),
+        (-1, 0),
     ],
 )
 def test_add_1(x, expected):

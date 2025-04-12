@@ -1,9 +1,10 @@
 # repository-template
 
--   Install `uv` with `curl -LsSf https://astral.sh/uv/install.sh | sh`
--   `uv init --python=3.11`
--   `uv venv`
--   `uv add --dev pre-commit ruff pytest`
--   Create the `.pre-commit-config-yaml`
--   `uv run pre-commit install`
--   `uv add numpy`
+## Usage
+
+- If you don't have `uv` installed, install `uv` with `curl -LsSf https://astral.sh/uv/install.sh | sh`
+- Install the pre-commit hooks (or else they won't run): `uv run pre-commit install`
+- Run tests: `uv run pytest`
+- Execute code: `uv run example/add.py`
+- Run linter: `uv run ruff check`
+- Run formatted: `uv run ruff format`
