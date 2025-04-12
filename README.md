@@ -1,6 +1,6 @@
 # repository-template
 
-A repository template, inspired by [this](https://github.com/neubig/starter-repo) one, but using `uv` and not using `mypy` or GitHub Actions.
+A repository template for Python projects, inspired by [this](https://github.com/neubig/starter-repo) one, but using `uv` and not using `mypy` or GitHub Actions.
 
 ## Usage
 
